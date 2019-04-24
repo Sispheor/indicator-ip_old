@@ -1,4 +1,4 @@
-#/bin/sh
+#!/usr/bin/env bash
 
 if [ $# -lt 2 ]; then
         echo "== Generate manpage for indicator-ip =="

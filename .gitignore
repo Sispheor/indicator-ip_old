@@ -6,3 +6,4 @@
 *.debhelper
 NEWS
 README
+venv

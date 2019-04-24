@@ -1,12 +1,12 @@
 [![Beerpay](https://beerpay.io/bovender/indicator-ip/badge.svg?style=flat-square)](https://beerpay.io/bovender/indicator-ip)
 # indicator-ip
 
-![indicator](https://github.com/bovender/indicator-ip/raw/master/src/IndicatorIp/images/screenshot.png)
+![indicator](src/indicator_ip/images/screenshot.png)
 
 A Ubuntu [indicator](http://unity.ubuntu.com/projects/appindicators/)
 to display the current IP address.
 
-Tested on Ubuntu 14.10, 15.04, 15.10 and 16.04 with Unity.
+Tested on Ubuntu 14.10, 15.04, 15.10, 16.04 and 18.04 with Unity and gnome-fallback.
 
 
 ## Installation
@@ -97,6 +97,19 @@ Autostart file (created by the **--autostart** option, removed by
 ## Website
 
 <https://github.com/bovender/indicator-ip>
+
+## Dev environment
+
+Install system packages
+```
+sudo apt-get install gcc python3-dev python3-gi python3-gi-cairo libcairo2-dev  \
+libjpeg-dev libgif-dev gir1.2-gtk-3.0 gobject-introspection libgirepository1.0-dev pkg-config
+```
+
+Install python package
+```
+sudo pip install -r requirement.txt
+```
 
 
 ## Contributing
